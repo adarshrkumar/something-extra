@@ -10,7 +10,7 @@ items.forEach(function(i) {
     counts.push(i.length)
 })
 
-var countStr = `${item.length-1} | `
+var countStr = `${items.length-1} | `
 
 counts.forEach(function(c, i) {
     if (i !== 0) countStr += ' - '
