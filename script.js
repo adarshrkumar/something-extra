@@ -1,4 +1,4 @@
-var text = document.getElementById('#result').textContent
+var text = document.getElementById('result').textContent
 
 var split = text.split('aagctt').join('A/AGCTT')
 
@@ -17,4 +17,4 @@ counts.forEach(function(c, i) {
     countStr += c
 })
 
-document.getElementById('#result').textContent = counts
+document.getElementById('result').textContent = counts
