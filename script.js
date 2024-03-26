@@ -1,6 +1,6 @@
 var text = document.getElementById('result').textContent
 
-var splitItems = text.split('aagctt').join('A/AGCTT')
+var splitItems = text.split('ctgcag').join('CTGCA/G')
 
 var items = splitItems.split('/')
 splitItems = splitItems.split('/').join(' ')
