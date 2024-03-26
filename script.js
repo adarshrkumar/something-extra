@@ -1,9 +1,9 @@
 var text = document.getElementById('result').textContent
 
-var split = text.split('aagctt').join('A/AGCTT')
+var splitItems = text.split('aagctt').join('A/AGCTT')
 
-var items = split.split('/')
-split = split.split('/').replace(' ')
+var items = splitItems.split('/')
+splitItems = splitItems.split('/').replace(' ')
 
 var counts = []
 items.forEach(function(i) {
